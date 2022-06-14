@@ -1,0 +1,31 @@
+/* Font declerations */
+
+@font-face {
+    font-family: futura;
+    font-weight: Book;
+    src: url(../assets/fonts/futuraBook.otf);
+}
+
+@font-face {
+    font-family: futura;
+    font-weight: Bold;
+    src: url(../assets/fonts/futuraBold.otf);
+}
+
+@font-face {
+    font-family: helveticaNeue;
+    font-weight: Bold;
+    src: url(../assets/fonts/helveticaNeueBold.otf);
+}
+
+@font-face {
+    font-family: helveticaNeue;
+    font-weight: BoldItalic;
+    src: url(../assets/fonts/helveticaNeueBoldItalic.otf);
+}
+
+@font-face {
+    font-family: helveticaNeue;
+    font-weight: Standard;
+    src: url(../assets/fonts/helveticaNeueStandard.otf);
+}

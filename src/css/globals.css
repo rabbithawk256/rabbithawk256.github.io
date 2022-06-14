@@ -1,0 +1,17 @@
+@import url(./definitions.css);
+
+.text-title {
+    font-family: helveticaNeue;
+    font-size: 6em;
+}
+
+.text-subheading {
+    font-family: helveticaNeue;
+    font-size: 5em;
+    font-weight: bold
+}
+
+.text-body {
+    font-family: futura;
+    font-size: 2em;
+}
