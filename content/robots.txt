@@ -1,0 +1,4 @@
+Sitemap: https://www.rabbithawk256.dev/sitemap.xml
+# robots. robots are cool
+User-agent: *
+Disallow:

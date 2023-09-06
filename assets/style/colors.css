@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: dark) {
+	body {
+		--bg: #1b1f24;
+		--bg-01: #232b34;
+		--bg-02: #2d343a;
+		--fg: #e2f4fb;
+		--accent: #e3363a;
+		--accent-selected: #b4195a;
+		--a11y-focus: #54aeff;
+	}
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--fg)
+}
+
+pre code {
+	display: block;
+	background: var(--bg-01);
+	border-color: var(--bg-02);
+	border-width: 0.25rem;
+	border-style: solid;
+	white-space: pre;
+	overflow-x: scroll;
+	max-width: 100%;
+	min-width: 100px;
+	padding: 1rem 0 1rem 1rem;
+}

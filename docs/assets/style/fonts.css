@@ -1,0 +1,104 @@
+@font-face {
+	font-family: hanken-grotesk;
+	src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
+	font-style: normal;
+}
+@font-face {
+	font-family: hanken-grotesk;
+	src: url("../fonts/HankenGrotesk-Italic-VariableFont_wght.ttf");
+	font-style: italic;
+}
+@font-face {
+	font-family: ibm-mono;
+	src: url("../fonts/IBM-Plex-Mono.otf");
+	font-style: normal;
+}
+@font-face {
+	font-family: ibm-sans;
+	src: url("../fonts/IBM-Plex-Sans-Roman.woff");
+	font-style: normal;
+}
+@font-face {
+	font-family: ibm-sans;
+	src: url("../fonts/IBM-Plex-Sans-Italic.woff");
+	font-style: italic;
+}
+body {
+	font-family: ibm-sans, Helvetica, system-ui, sans-serif;
+	font-size: 1.25rem;
+	font-variation-settings: "wght" 300, "wdth" 100, "opsz" 12;
+	line-height: 2rem;
+}
+.masthead * {
+	font-size: 1.25rem;
+	font-variation-settings: "wght" 500, "wdth" 100, "opsz" 12;
+}
+
+.masthead :not(.links) a {
+	color: var(--fg);
+	font-family: hanken-grotesk;
+	text-decoration: none;
+}
+.masthead .links a {
+	margin-left: 1rem;
+}
+
+h1 {
+	font-family: hanken-grotesk;
+	font-variation-settings: "wght" 600, "wdth" 100, "opsz" 12;
+	font-size: 2.5rem;
+}
+
+code {
+	font-family: ibm-mono, "Courier New", Courier, monospace;
+}
+
+a {
+	/* stolen from batbeeps. sorry */
+	text-decoration-thickness: 0.6rem;
+	text-decoration-skip-ink: none;
+	text-underline-offset: -0.25rem;
+	text-decoration-color: color-mix(in srgb, var(--accent) 25%, transparent 75%);
+	color: var(--accent);
+	font-variation-settings: "wght" 600;
+}
+
+a:hover {
+	/* stolen from batbeeps. sorry */
+	text-decoration-color: color-mix(in srgb, var(--accent-selected) 25%, transparent 75%);
+	color: var(--accent-selected);
+}
+
+a:focus-visible {
+	/* also stolen from batbeeps */
+	outline: none;
+	text-decoration: none;
+	background-color: var(--a11y-focus);
+	color: black;
+	box-shadow: 0 -2px var(--a11y-focus), 0 4px black;
+}
+.links a:focus-visible {
+	color: black;
+	font-variation-settings: "wght" 600;
+}
+h2 {
+	font-family: hanken-grotesk, "Arial Nova", arial, system-ui, sans-serif;
+	font-variation-settings: "wght" 600;
+}
+h3 {
+	font-family: hanken-grotesk, "Arial Nova", arial, system-ui, sans-serif;
+	font-variation-settings: "wght" 400;
+}
+.post-title {
+	font-family: hanken-grotesk, "Arial Nova", arial, system-ui, sans-serif;
+	font-size: 2rem;
+	font-variation-settings: "wght" 600;
+	color: var(--fg)
+}
+h4 {
+	font-variation-settings: "wght" 600;
+}
+.post-info {
+	font-variation-settings: "wght" 600;
+	font-size: 1rem;
+}

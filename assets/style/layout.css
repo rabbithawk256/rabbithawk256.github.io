@@ -1,0 +1,42 @@
+body {
+	padding: 5% 15% 5% 15%;
+}
+.masthead img {
+	max-height: 1.25rem;
+	vertical-align: middle;
+	display: inline;
+	filter: invert(5%) sepia(3%) saturate(1763%) hue-rotate(174deg)
+		brightness(102%) contrast(97%);
+}
+.masthead {
+	max-width: 100%;
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
+	gap: 0px 0px;
+	padding-bottom: 1.5rem;
+}
+
+.masthead > .links {
+	text-align: right;
+}
+
+code {
+	width: 100%;
+}
+
+.a11y-skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.a11y-skip:focus {
+	height: 3rem;
+	width: 100%;
+	text-align: center;
+	position: static;
+	display: block;
+}

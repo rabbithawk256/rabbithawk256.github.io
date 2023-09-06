@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>/</loc>
+            <lastmod>2023-09-01T19:43:43.536Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/about</loc>
+            <lastmod>2023-09-01T23:57:36.137Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/contact</loc>
+            <lastmod>2023-09-02T10:26:37.973Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/blog.html</loc>
+            <lastmod>2023-09-02T19:26:35.268Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/work.html</loc>
+            <lastmod>2023-09-02T19:27:01.197Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/404.html</loc>
+            <lastmod>2023-09-03T15:16:14.590Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/blog/2023/metamorphosis/</loc>
+            <lastmod>2023-09-04T23:36:43.000Z</lastmod>
+        </url>
+    
+</urlset>

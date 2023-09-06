@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="/assets/style/style.css">
+	</head>
+	<body>
+		<a class="a11y-skip" href="#content">Skip to content</a>
+		<div class="masthead">
+    <div><img class="logo" src="/assets/img/logo.svg" aria-hidden="true"/><a href="/">rabbithawk256.dev</a></div>
+  <div class="links">
+    <a href="/about/">About</a>
+    <!-- 
+    show these once they have content  
+    <a href="/blog">Blog</a>
+    <a href="/work">Work</a> 
+    !-->
+    <a href="/contact/">Contact</a>
+  </div>
+<ul>
+</ul>
+</div>
+
+		<div class="content" id="content">
+			<h1>About</h1>
+<h2>About Relay</h2>
+<span class="neofetch">
+<pre><code>relay@localhost &gt; ~ &gt; neofetch
+OS: PRISM Advanced Robotics(TM) Oxygene(R) Robotics Core
+Build: 26.62
+Uptime: 22 hours, 11 minutes
+NLU: NL-436 Neural Logic Unit 
+Memory: 32GB (3,428MB free)
+relay@localhost &gt; ~ &gt; cat ./desktop/info.txt
+
+A robot from space. Hates computers, works with them anyway. Trying their best.
+
+</code></pre>
+</span>
+<h2>About this website</h2>
+<h3>Website</h3>
+<p>This website is based on, but does not use, the <a href="https://github.com/cadars/john-doe">JOHN DOE</a> template.<br>
+The method for link highlighting is sourced straight from <a href="https://beeps.website/">beeps.website</a>.</p>
+<h3>Typography</h3>
+<p>Hanken Grotesk, used in headings and titles, is by the Hanken Type Foundry.<br>
+IBM Plex Sans, used for body text, is by International Business Machines.</p>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/assets/style/style.css">
+	</head>
+	<body>
+		<a class="a11y-skip" href="#content">Skip to content</a>
+		{% include "../modules/masthead.njk" %}
+		<div class="content" id="content">
+			{{ content | safe }}
+		</div>
+	</body>
+</html>
