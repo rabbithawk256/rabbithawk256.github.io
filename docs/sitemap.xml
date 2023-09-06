@@ -7,12 +7,12 @@
         </url>
     
         <url>
-            <loc>/about</loc>
+            <loc>/about/</loc>
             <lastmod>2023-09-01T23:57:36.137Z</lastmod>
         </url>
     
         <url>
-            <loc>/contact</loc>
+            <loc>/contact.html</loc>
             <lastmod>2023-09-02T10:26:37.973Z</lastmod>
         </url>
     
@@ -22,7 +22,7 @@
         </url>
     
         <url>
-            <loc>/work.html</loc>
+            <loc>/work/</loc>
             <lastmod>2023-09-02T19:27:01.197Z</lastmod>
         </url>
     
@@ -33,7 +33,7 @@
     
         <url>
             <loc>/blog/2023/metamorphosis/</loc>
-            <lastmod>2023-09-04T23:36:43.000Z</lastmod>
+            <lastmod>2023-09-06T13:43:25.000Z</lastmod>
         </url>
     
 </urlset>

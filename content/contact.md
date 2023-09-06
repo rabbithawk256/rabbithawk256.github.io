@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: pages/content.njk
-permalink: /contact
+permalink: /contact.html
 ---
 
 # {{ title }}
