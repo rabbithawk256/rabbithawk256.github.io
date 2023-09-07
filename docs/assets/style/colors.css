@@ -1,9 +1,23 @@
+@import url(pallete.css);
 @media (prefers-color-scheme: dark) {
 	body {
-		--bg: #1b1f24;
-		--bg-01: #232b34;
-		--bg-02: #2d343a;
-		--fg: #e2f4fb;
+		--bg: var(--black);
+		--bg-01: var(--grey-09);
+		--bg-02: var(--grey-08);
+		--fg: var(--white);
+		--accent: var(--blue-04);
+		--accent-underline: var(--blue-09);
+		--accent-selected: var(--red-07);
+		--a11y-focus: #54aeff;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		--bg: #e2f4fb;
+		--bg-01: #b6c6cc;
+		--bg-02: #9eaab4;
+		--fg: #1b1f24;
 		--accent: #e3363a;
 		--accent-selected: #b4195a;
 		--a11y-focus: #54aeff;

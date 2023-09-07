@@ -2,7 +2,8 @@ body {
 	padding: 5% 15% 5% 15%;
 }
 .masthead img {
-	max-height: 1.25rem;
+	height: 1.25rem;
+	width: auto;
 	vertical-align: middle;
 	display: inline;
 	filter: invert(5%) sepia(3%) saturate(1763%) hue-rotate(174deg)

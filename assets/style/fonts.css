@@ -2,26 +2,31 @@
 	font-family: hanken-grotesk;
 	src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
 	font-style: normal;
+	font-display: swap;
 }
 @font-face {
 	font-family: hanken-grotesk;
 	src: url("../fonts/HankenGrotesk-Italic-VariableFont_wght.ttf");
 	font-style: italic;
+	font-display: swap;
 }
 @font-face {
 	font-family: ibm-mono;
 	src: url("../fonts/IBM-Plex-Mono.otf");
 	font-style: normal;
+	font-display: swap;
 }
 @font-face {
 	font-family: ibm-sans;
 	src: url("../fonts/IBM-Plex-Sans-Roman.woff");
 	font-style: normal;
+	font-display: swap;
 }
 @font-face {
 	font-family: ibm-sans;
 	src: url("../fonts/IBM-Plex-Sans-Italic.woff");
 	font-style: italic;
+	font-display: swap;	
 }
 body {
 	font-family: ibm-sans, Helvetica, system-ui, sans-serif;
@@ -58,7 +63,7 @@ a {
 	text-decoration-thickness: 0.6rem;
 	text-decoration-skip-ink: none;
 	text-underline-offset: -0.25rem;
-	text-decoration-color: color-mix(in srgb, var(--accent) 25%, transparent 75%);
+	text-decoration-color: var(--accent-underline);
 	color: var(--accent);
 	font-variation-settings: "wght" 600;
 }

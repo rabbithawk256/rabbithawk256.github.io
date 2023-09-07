@@ -4,6 +4,7 @@ layout: pages/content.njk
 eleventyNavigation:
   key: About
   order: 1
+description: The about page for rabbithawk256.dev
 ---
 # {{ title }}
 ## About Relay

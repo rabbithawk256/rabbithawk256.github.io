@@ -5,6 +5,7 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 0
+description: Welcome to rabbithawk256.dev
 ---
 
 # Welcome to rabbithawk256.dev

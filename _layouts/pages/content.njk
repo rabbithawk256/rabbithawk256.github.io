@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-	<head>
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" href="/assets/style/style.css">
-	</head>
-	<body>
-		<a class="a11y-skip" href="#content">Skip to content</a>
-		{% include "../modules/masthead.njk" %}
-		<div class="content" id="content">
-			{{ content | safe }}
-		</div>
-	</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>rabbithawk256.dev - {{ title }}</title>
+    <meta name="viewport"/>
+    <meta name="description" content = {{ post.description }}/>
+    <link rel="stylesheet" href="/assets/style/style.css" />
+  </head>
+  <body>
+    <a class="a11y-skip" href="#content">Skip to content</a>
+    {% include "../modules/masthead.njk" %}
+    <div class="content" id="content">{{ content | safe }}</div>
+  </body>
 </html>
