@@ -12,5 +12,5 @@ description: Welcome to rabbithawk256.dev
 # Hi, Internet
 
 I'm a web developer, designer, and writer from the United Kingdom.  
-I go by they/it pronouns, and, for all intents and purposes, [I'm a robot.](/robotkin)   
+I go by they/it pronouns.  
 This is my personal webiste! Unfortunately, I'm not particularly good at describing myself, so this page is rather empty.
