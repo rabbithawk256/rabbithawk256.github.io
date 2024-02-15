@@ -1,4 +1,5 @@
 @import url(pallete.css);
+
 @media (prefers-color-scheme: dark) {
 	body {
 		--bg: var(--black);
@@ -7,20 +8,27 @@
 		--fg: var(--white);
 		--accent: var(--blue-04);
 		--accent-underline: var(--blue-09);
-		--accent-selected: var(--red-07);
+		--accent-selected: var(--blue-07);
 		--a11y-focus: #54aeff;
+	}
+	.masthead img {
+		filter: brightness(0) saturate(100%) invert(99%) sepia(36%) saturate(1028%) hue-rotate(173deg) brightness(86%) contrast(90%);
 	}
 }
 
 @media (prefers-color-scheme: light) {
 	body {
-		--bg: #e2f4fb;
-		--bg-01: #b6c6cc;
-		--bg-02: #9eaab4;
-		--fg: #1b1f24;
-		--accent: #e3363a;
-		--accent-selected: #b4195a;
+		--bg: var(--white-bg);
+		--bg-01: var(--grey-01);
+		--bg-02: var(--grey-02);
+		--fg: var(--black);
+		--accent: var(--blue-08);
+		--accent-underline: var(--blue-04);
+		--accent-selected: var(--blue-06);
 		--a11y-focus: #54aeff;
+	}
+	.masthead img {
+		filter: brightness(0) saturate(100%) invert(9%) sepia(23%) saturate(570%) hue-rotate(185deg) brightness(92%) contrast(95%);
 	}
 }
 
@@ -41,3 +49,4 @@ pre code {
 	min-width: 100px;
 	padding: 1rem 0 1rem 1rem;
 }
+

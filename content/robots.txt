@@ -1,4 +1,4 @@
 Sitemap: https://www.rabbithawk256.dev/sitemap.xml
-# robots. robots are cool
+# robots. robots are cool :3
 User-agent: *
 Disallow:

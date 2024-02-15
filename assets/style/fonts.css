@@ -1,47 +1,33 @@
 @font-face {
-	font-family: hanken-grotesk;
-	src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
-	font-style: normal;
-	font-display: swap;
+	font-family: plex-mono;
+	src: url("../fonts/IBM-Plex-Mono.otf")
 }
+
 @font-face {
-	font-family: hanken-grotesk;
-	src: url("../fonts/HankenGrotesk-Italic-VariableFont_wght.ttf");
+	font-family: archivo;
+	src: url("../fonts/Archivo-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+	font-family: archivo;
+	src: url("../fonts/Archivo-Italic-VariableFont_wdth,wght.ttf");
 	font-style: italic;
-	font-display: swap;
 }
-@font-face {
-	font-family: ibm-mono;
-	src: url("../fonts/IBM-Plex-Mono.otf");
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: ibm-sans;
-	src: url("../fonts/IBM-Plex-Sans-Roman.woff");
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: ibm-sans;
-	src: url("../fonts/IBM-Plex-Sans-Italic.woff");
-	font-style: italic;
-	font-display: swap;	
-}
+
 body {
-	font-family: ibm-sans, Helvetica, system-ui, sans-serif;
-	font-size: 1.25rem;
-	font-variation-settings: "wght" 300, "wdth" 100, "opsz" 12;
+	font-family: archivo, Helvetica, system-ui, sans-serif;
+	font-size: 1rem;
+	font-variation-settings: "wght" 450, "wdth" 105;
 	line-height: 2rem;
 }
 .masthead * {
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-variation-settings: "wght" 500, "wdth" 100, "opsz" 12;
 }
 
 .masthead :not(.links) a {
 	color: var(--fg);
-	font-family: hanken-grotesk;
+	font-family: archivo;
 	text-decoration: none;
 }
 .masthead .links a {
@@ -49,13 +35,13 @@ body {
 }
 
 h1 {
-	font-family: hanken-grotesk;
-	font-variation-settings: "wght" 600, "wdth" 100, "opsz" 12;
+	font-family: archivo, Helvetica, system-ui, sans-serif;
+	font-variation-settings: "wght" 685, "wdth" 75;
 	font-size: 2.5rem;
 }
 
 code {
-	font-family: ibm-mono, "Courier New", Courier, monospace;
+	font-family: plex-mono, "Courier New", Courier, monospace;
 }
 
 a {
@@ -87,23 +73,35 @@ a:focus-visible {
 	font-variation-settings: "wght" 600;
 }
 h2 {
-	font-family: hanken-grotesk, "Arial Nova", arial, system-ui, sans-serif;
+	font-family: archivo, Helvetica, system-ui, sans-serif;
 	font-variation-settings: "wght" 600;
 }
 h3 {
-	font-family: hanken-grotesk, "Arial Nova", arial, system-ui, sans-serif;
+	font-family: archivo, Helvetica, system-ui, sans-serif;
 	font-variation-settings: "wght" 400;
 }
 .post-title {
-	font-family: hanken-grotesk, "Arial Nova", arial, system-ui, sans-serif;
+	font-family: archivo, Helvetica, system-ui, sans-serif;
 	font-size: 2rem;
 	font-variation-settings: "wght" 600;
 	color: var(--fg)
 }
+
+.work-title {
+	font-size: 2rem;
+	text-decoration: none;
+	color: var(--accent)
+}
+
 h4 {
 	font-variation-settings: "wght" 600;
 }
 .post-info {
 	font-variation-settings: "wght" 600;
 	font-size: 1rem;
+}
+
+.subheading {
+	font-size: 1.25em;
+	padding-bottom: 1ch;
 }

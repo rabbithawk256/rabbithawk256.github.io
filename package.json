@@ -14,5 +14,11 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.5"
+  },
+  "dependencies": {
+    "eleventy-plugin-metagen": "^1.7.11",
+    "eleventy-plugin-social-share-card-generator": "^1.0.6",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-header-sections": "^1.0.0"
   }
 }

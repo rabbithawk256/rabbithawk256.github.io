@@ -4,12 +4,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>rabbithawk256.dev - {{ title }}</title>
     <meta name="viewport"/>
-    <meta name="description" content = {{ post.description }}/>
-    <link rel="stylesheet" href="/assets/style/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5b85d5">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+  {% metagen 
+      name = name,
+      title = title,
+      description = description,
+      twitter_card_type = "summary_large_image",
+      url = page.url,
+      twitter_handle = twitter,
+      image = img, 
+      generator = generator 
+      %}
+  <link rel="stylesheet" href="/assets/style/style.css" />
   </head>
   <body>
     <a class="a11y-skip" href="#content">Skip to content</a>
     {% include "../modules/masthead.njk" %}
     <div class="content" id="content">{{ content | safe }}</div>
+
   </body>
 </html>

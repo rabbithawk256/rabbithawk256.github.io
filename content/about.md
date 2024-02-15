@@ -7,27 +7,49 @@ eleventyNavigation:
 description: The about page for rabbithawk256.dev
 ---
 # {{ title }}
-## About Relay
-<span class="neofetch">
 
-```
-relay@localhost > ~ > neofetch
-OS: PRISM Advanced Robotics(TM) Oxygene(R) Robotics Core
-Build: 26.62
-Uptime: 22 hours, 11 minutes
-NLU: NL-436 Neural Logic Unit 
-Memory: 32GB (3,428MB free)
-relay@localhost > ~ > cat ./desktop/info.txt
+## Colophon
 
-A robot from space. Hates computers, works with them anyway. Trying their best.
+This website is heavily based on, but does not use, the [JOHN DOE](https://github.com/cadars/john-doe) template.  
+The stylesheets for highlighting hyperlinks is from [beeps.website](https://beeps.website/).  
+The font for all headings and body text is [Archivo](https://fonts.google.com/specimen/Archivo/), licensed under the OFL.  
 
-```
-</span>
+### Buttons
 
-## About this website
-### Website
-This website is based on, but does not use, the [JOHN DOE](https://github.com/cadars/john-doe) template.  
-The method for link highlighting is sourced straight from [beeps.website](https://beeps.website/).  
-### Typography
-Hanken Grotesk, used in headings and titles, is by the Hanken Type Foundry.  
-IBM Plex Sans, used for body text, is by International Business Machines.
+<div class="badge-grid">
+<a href="https://beeps.website">
+  <img
+    class="web-badge"
+    alt="beeps.website - a site by a plural, furry, otherkin weirdo"
+    src="https://beeps.website/assets/images/88x31.gif"
+  />
+</a>
+
+<a href="https://ioletsgo.gay">
+<img
+  class="web-badge"
+  alt="ioletsgo.gay"
+  src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
+/>
+</a>
+
+<a href="https://ioletsgo.gay">
+<img
+  class="web-badge"
+  alt="ioletsgo.gay"
+  src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
+/>
+</a><a href="https://ioletsgo.gay">
+<img
+  class="web-badge"
+  alt="ioletsgo.gay"
+  src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
+/>
+</a><a href="https://ioletsgo.gay">
+<img
+  class="web-badge"
+  alt="ioletsgo.gay"
+  src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
+/>
+</a>
+</div>

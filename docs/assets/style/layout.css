@@ -1,13 +1,35 @@
 body {
-	padding: 5% 15% 5% 15%;
+	padding: 5% 20ch 5% 20ch;;
+}
+
+@media only screen and (max-width: 1000px) {
+	body {
+		padding: 5% 0 5% 0;
+		size: 2rem;
+	}
+	.masthead {
+		grid-row-start: 2;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.content {
+		padding: 5% 0 5% 0 !important;
+	}
 }
 .masthead img {
 	height: 1.25rem;
 	width: auto;
 	vertical-align: middle;
 	display: inline;
-	filter: invert(5%) sepia(3%) saturate(1763%) hue-rotate(174deg)
-		brightness(102%) contrast(97%);
+}
+@media only screen and (max-width: 1000px) {
+	body {
+		padding: 5% 0 5% 0;
+	}
+	.content {
+		padding-right: 0
+	}
 }
 .masthead {
 	max-width: 100%;
@@ -15,13 +37,34 @@ body {
 	grid-auto-columns: 1fr;
 	grid-template-columns: 1fr 1fr;
 	gap: 0px 0px;
-	padding-bottom: 1.5rem;
+	padding-bottom: 0;
 }
-
+@media only screen and (max-width: 1000px) {
+	.masthead > .links {
+		grid-row-start: 2;
+		grid-column: span 2;
+		text-align: center !important;
+	}
+	.masthead > .logoHolder {
+		text-align: center;
+		grid-column: span 2;
+	}
+}
 .masthead > .links {
 	text-align: right;
 }
+@media only screen and (max-width: 500px) {
+	.work-grid {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(3, 25vw);
+	}
+}
 
+.content > section > h1 {
+	background: var(--fg);
+	color: var(--bg);
+	padding: 1rem 0.5rem;
+}
 code {
 	width: 100%;
 }
@@ -40,4 +83,118 @@ code {
 	text-align: center;
 	position: static;
 	display: block;
+}
+
+img {
+	display: block;
+	height: auto;
+	border-radius: 5px;
+}
+.content {
+	padding-right: 35ch
+}
+
+
+.work-header {
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-template-columns: auto auto auto;
+	gap: 1rem 5rem;
+	padding-top: 3rem;
+}
+.work-field > ul {
+	margin-top: 0;
+	padding-left: 0;
+}
+.work-field > p {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-variation-settings: 
+		"wght" 700;
+	/* TODO: Find out why the disambiguation "ss04" ligatures don't work here
+	this is very bad for a11y */
+	font-size: 1rem;
+}
+.work-field > hr {
+	height: 2.5px;
+	border-radius: 10% / 500%;
+	border: none;
+	background: linear-gradient(to right, var(--fg) 0%, var(--bg) 100%);
+}
+.work-field > .duration {
+	font-variation-settings: 
+		"wght" 405,
+		"wdth" 110;
+	font-size: 1.5rem;
+
+}
+.work-grid {
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 15vw);
+	gap: 1rem 1rem;
+}
+
+.workgrid-cell {
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.work-grid {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 20vw);
+	}
+}
+@media only screen and (max-width: 500px) {
+	.work-grid {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(3, 25vw);
+	}
+}
+.workgrid-cell .cardBG {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.workgrid-cell .cardLogo {
+	transform: translate(0%, -100%);
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.workgrid-cell .cardLogo:focus, .workgrid-cell .cardLogo:hover {
+	transform: scale(1.04) translate(0%, -96%);
+	transform-origin: center;
+	filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
+	transition: linear 0.04s;
+}
+
+.image-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding-left: 0;
+	list-style: none;
+  }
+  
+  .image-gallery > li {
+	height: 300px;
+	cursor: pointer;
+	position: relative;
+  }
+  
+  .image-gallery li img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	border-radius: 5px;
+  }
+.image-gallery::after {
+	content: "";
+	flex-basis: 350px;
 }

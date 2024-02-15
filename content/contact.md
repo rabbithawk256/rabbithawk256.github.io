@@ -5,6 +5,8 @@ permalink: /contact.html
 ---
 
 # {{ title }}
-Email: [tommy@rabbithawk256.dev](mailto:tommy@rabbithawk256.dev)  
-If you're just looking to say *hi,* however, I'm on both [cohost](https://cohost.org/rabbithawk256) and [Mastodon (wetdry.world)](https://wetdry.world/@rabbithawk256).  
+
+I prefer inquiries to be made via my email, [contact@rabbithawk256.dev](mailto:contac@rabbithawk256.dev).  
+
+However, if you're just looking to say *hi,* I'm primarily on Mastodon via [wetdry.world](https://wetdry.world/@rabbithawk256).  
 I don't like making instant messaging information public. If you're looking for it, use the Email above.

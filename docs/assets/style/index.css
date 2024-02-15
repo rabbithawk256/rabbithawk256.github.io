@@ -1,0 +1,12 @@
+section:nth-child(odd) {
+	background-color: var(--grey-09);
+	padding: 1rem;
+	padding-left: 0;
+	margin-right: 1rem;
+}
+
+@media (prefers-color-scheme: light) {
+	section:nth-child(odd) {
+		background-color: var(--grey-02);
+	}
+}

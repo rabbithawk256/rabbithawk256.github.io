@@ -1,3 +1,24 @@
 @import url("layout.css");
 @import url("colors.css");
 @import url("fonts.css");
+@import url("callouts.css");
+
+.placeholder-img {
+	background-color: var(--blue-05);
+	border-radius: 1rem;
+	height: auto;
+	width: 70%;
+	margin-bottom: 1rem;
+	aspect-ratio: 16 / 9;
+}
+
+.badge-grid {
+	display: grid;
+	gap: 1rem;
+	
+}
+.web-badge {
+	/* Compatability fixes for 88x31s*/
+	border-radius: 0;
+	image-rendering: pixelated; /* Kinda ugly */
+}

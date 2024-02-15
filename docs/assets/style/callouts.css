@@ -1,0 +1,70 @@
+div[class^="callout-"] {
+    border-radius: 5px;
+    border-width: thick;
+    padding: 0.5em;
+    font-variation-settings: "wght" 425, "wdth" 100, "opsz" 12;
+    width: 60ch;
+    max-width: auto;
+  }
+
+  .callout-level {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.8em;
+    font-variation-settings: "wght" 650, "wdth" 100, "opsz" 12 !important;
+    margin-left: 0 !important; /* css crimes, and not the funny kind */
+  }
+
+  .callout-info {
+    background-color: color-mix(in srgb, var(--blue-04) 20%, transparent) !important;
+    border-color: var(--blue-05)!important;
+  }
+
+  .callout-icon-info {  
+    background: url("/assets/img/icon-callout-info-dark.svg");
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.25em;
+  }
+
+  .callout-warning {
+    color: var(--yellow-01);    
+    background-color: color-mix(in srgb, var(--yellow-03) 20%, transparent);
+    border-color: var(--yellow-05);
+    border-radius: 5px;
+    border-width: thick;
+    padding: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+  }
+
+  .callout-icon-warning {
+    background: url("/assets/img/icon-callout-warning-dark.svg");
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.25em;
+  }
+
+  .callout-caution {
+    color: var(--red-01);
+    background-color: color-mix(in srgb, var(--red-05) 25%, transparent);
+    border-color: var(--red-border);
+    border-radius: 5px;
+    border-width: thick;
+    padding: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+  }
+
+  .callout-icon-caution {
+    background: url("/assets/img/icon-callout-caution-dark.svg");
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.25em;
+  }

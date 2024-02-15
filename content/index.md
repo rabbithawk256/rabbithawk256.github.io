@@ -1,5 +1,5 @@
 ---
-title: rabbithawk256.dev
+title: Welcome
 layout: pages/content.njk
 permalink: /
 eleventyNavigation:
@@ -7,6 +7,10 @@ eleventyNavigation:
   order: 0
 description: Welcome to rabbithawk256.dev
 ---
+<link rel="stylesheet" href="../assets/style/index.css">
 
-# Welcome to rabbithawk256.dev
-This is the personal website of *rabbithawk256,* in a perpetural state of being unfinished. 
+# Hi, Internet
+
+I'm a web developer, designer, and writer from the United Kingdom.  
+I go by they/it pronouns, and, for all intents and purposes, [I'm a robot.](/robotkin)   
+This is my personal webiste! Unfortunately, I'm not particularly good at describing myself, so this page is rather empty.
