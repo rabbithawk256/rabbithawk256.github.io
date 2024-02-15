@@ -102,6 +102,16 @@ img {
 	gap: 1rem 5rem;
 	padding-top: 3rem;
 }
+@media only screen and (max-width: 1000px) {
+	.work-header {
+		display: grid;
+		grid-auto-columns: 1fr 1fr;
+		grid-template-columns: auto;
+		gap: 1rem 5rem;
+		padding-top: 3rem;
+	}
+}
+
 .work-field > ul {
 	margin-top: 0;
 	padding-left: 0;
@@ -153,6 +163,10 @@ img {
 		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: repeat(3, 25vw);
 	}
+		.work-grid {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(3, 25vw);
+	}
 }
 .workgrid-cell .cardBG {
 	width: 100%;
@@ -173,6 +187,19 @@ img {
 	transition: linear 0.04s;
 }
 
+@media only screen and (max-width: 1000px) {
+	.image-gallery {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 10px;
+		padding-left: 0;
+		list-style: none;
+		}
+	.image-gallery li img {
+		object-fit: scale-down !important;
+	}
+}
 .image-gallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -183,7 +210,6 @@ img {
   
   .image-gallery > li {
 	height: 300px;
-	cursor: pointer;
 	position: relative;
   }
   

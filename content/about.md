@@ -32,24 +32,4 @@ The font for all headings and body text is [Archivo](https://fonts.google.com/sp
   src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
 />
 </a>
-
-<a href="https://ioletsgo.gay">
-<img
-  class="web-badge"
-  alt="ioletsgo.gay"
-  src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
-/>
-</a><a href="https://ioletsgo.gay">
-<img
-  class="web-badge"
-  alt="ioletsgo.gay"
-  src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
-/>
-</a><a href="https://ioletsgo.gay">
-<img
-  class="web-badge"
-  alt="ioletsgo.gay"
-  src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
-/>
-</a>
 </div>
