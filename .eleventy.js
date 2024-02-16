@@ -60,7 +60,7 @@ module.exports = function (eleventyConfig) {
 	// custom directories
 	return {
 		dir: {
-			output: "docs",
+			output: "_site",
 			input: "content",
 			includes: "../_layouts",
 		},

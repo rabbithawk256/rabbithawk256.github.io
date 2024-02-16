@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "npx @11ty/eleventy --serve --port=1984",
     "build": "npx @11ty/eleventy --port=1984",
-    "clean": "rmdir ./docs"
+    "clean": "rmdir ./docs",
+    "deploy": ""
   },
   "keywords": [],
   "author": "",
