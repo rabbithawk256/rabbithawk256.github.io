@@ -25,11 +25,11 @@ The font for all headings and body text is [Archivo](https://fonts.google.com/sp
   />
 </a>
 
-<a href="https://ioletsgo.gay">
+<a href="https://ioletsgo.github.io/ioletsgo.gay/">
 <img
   class="web-badge"
   alt="ioletsgo.gay"
-  src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
+  src="https://ioletsgo.github.io/ioletsgo.gay/Assets/buttons/ivorybutton.gif"
 />
 </a>
 </div>
