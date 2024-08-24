@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>rabbithawk256.dev - {{ title }}</title>
     <meta name="viewport"/>
@@ -28,16 +26,18 @@
   <body>
     <a class="a11y-skip" href="#content">Skip to content</a>
     {% include "../modules/masthead.njk" %}
-    <div class="work-header">
-      <div class="work-field">
-        <h1 style="margin: 0; margin-bottom: 0.1rem;">{{ title }}</h1>
-        <hr>
-        <p class="duration">{{ duration   }}</p>
+    <div class="work-header centre-with-padding">
+      <div>
+        <div class="work-field grid" style="--rows: 3; --columns: 2;">
+          <h1 style="margin: 0; margin-bottom: 0.1rem;">{{ title | safe}}</h1>
+          <hr>
+          <p class="duration">{{ duration | safe }}</p>
+        </div>
       </div>
       <div class="work-field">
         <span>{{ background | markdown | safe }}</span>
       </div>
     </div>
-    <div class="content" id="content" style="width: 100%; padding: 0;">{{ content | safe }}</div>
+    <div class="content centre-with-padding" id="content">{{ content | safe }}</div>
   </body>
 </html>

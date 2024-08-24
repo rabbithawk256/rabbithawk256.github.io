@@ -1,11 +1,8 @@
 ---
 title: Contact
-layout: pages/content.njk
-permalink: /contact.html
+layout: pages/index.njk
+mastheadEntry: 5
 ---
-
-# {{ title }}
-
 I prefer inquiries to be made via my email, [contact@rabbithawk256.dev](mailto:contac@rabbithawk256.dev).  
 
 However, if you're just looking to say *hi,* I'm primarily on Mastodon via [wetdry.world](https://wetdry.world/@rabbithawk256).  

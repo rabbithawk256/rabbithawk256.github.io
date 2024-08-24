@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>rabbithawk256.dev - {{ title }}</title>
+    <meta name="viewport" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5b85d5" />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      property="og:image"
+      content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fstaging.rabbithawk256.dev{{ page.url | encodeURL }}opengraph/opengraph/"
+    />
+    <meta
+      property="twitter:image"
+      content="https://v1.screenshot.11ty.dev/https%3A%2F%2Fstaging.rabbithawk256.dev{{ page.url | encodeURL }}opengraph/opengraph/"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    {% metagen name = name, title = title, description = description,
+    twitter_card_type = "summary_large_image", url = page.url, generator =
+    generator %}
+    <link rel="stylesheet" href="/assets/style/style.css" />
+  </head>
+  <body>
+    <!-- <a class="a11y-skip" href="#content">Skip to content</a> -->
+    {% include "../modules/masthead.njk" %}
+    <style>
+      .masthead a:nth-child({{mastheadEntry}}) {
+        color: var(--bg);
+        background: var(--fg);
+        /* TODO: Remove the highlight if another item is focused */
+      }
+    </style>
+    <div class="content centre-with-padding" id="content">
+      <img class="blog-headline" src="{{ headlineImage }}" />
+        <div class="breadcrumb"> {{ eleventyNavigation.parent }} / {{ eleventyNavigation.key }} </div>
+        <h1 style="margin-top: var(--space-xs)">{{ title | safe }}</h1>
+        {{ content | safe }}
+    </div>
+    {% include "../modules/footer.njk" %}
+  </body>
+</html>

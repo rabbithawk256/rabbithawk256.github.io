@@ -1,16 +1,14 @@
 ---
 title: About
-layout: pages/content.njk
+layout: pages/index.njk
 eleventyNavigation:
   key: About
   order: 1
+mastheadEntry: 2
 description: The about page for rabbithawk256.dev
 ---
-# {{ title }}
-
 ## Colophon
 
-This website is heavily based on, but does not use, the [JOHN DOE](https://github.com/cadars/john-doe) template.  
 The stylesheets for highlighting hyperlinks is from [beeps.website](https://beeps.website/).  
 The font for all headings and body text is [Archivo](https://fonts.google.com/specimen/Archivo/), licensed under the OFL.  
 
@@ -25,11 +23,4 @@ The font for all headings and body text is [Archivo](https://fonts.google.com/sp
   />
 </a>
 
-<a href="https://ioletsgo.gay">
-<img
-  class="web-badge"
-  alt="ioletsgo.gay"
-  src="https://ioletsgo.gay/Assets/buttons/ivorybutton.gif"
-/>
-</a>
 </div>

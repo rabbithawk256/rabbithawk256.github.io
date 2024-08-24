@@ -1,107 +1,58 @@
-@font-face {
-	font-family: plex-mono;
-	src: url("../fonts/IBM-Plex-Mono.otf")
+* {
+	--font-stack: "Archivo", "Helvetica", sans-serif;
 }
 
-@font-face {
-	font-family: archivo;
-	src: url("../fonts/Archivo-VariableFont_wdth,wght.ttf");
-}
+/* @link https://utopia.fyi/type/calculator?c=500,18,1.2,1920,18,1.25,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
-@font-face {
-	font-family: archivo;
-	src: url("../fonts/Archivo-Italic-VariableFont_wdth,wght.ttf");
-	font-style: italic;
-}
-
-body {
-	font-family: archivo, Helvetica, system-ui, sans-serif;
-	font-size: 1rem;
-	font-variation-settings: "wght" 450, "wdth" 105;
-	line-height: 2rem;
-}
-.masthead * {
-	font-size: 1rem;
-	font-variation-settings: "wght" 500, "wdth" 100, "opsz" 12;
-}
-
-.masthead :not(.links) a {
+body:not(strong, em) {
 	color: var(--fg);
-	font-family: archivo;
 	text-decoration: none;
-}
-.masthead .links a {
-	margin-left: 1rem;
-}
+	font-family: var(--font-stack);
+	font-weight: 400;
+	font-size: var(--step-0);
+	line-height: var(--space-xl);
+	font-variant-numeric: oldstyle-nums;
 
-h1 {
-	font-family: archivo, Helvetica, system-ui, sans-serif;
-	font-variation-settings: "wght" 685, "wdth" 75;
-	font-size: 2.5rem;
-}
-
-code {
-	font-family: plex-mono, "Courier New", Courier, monospace;
-}
-
-a {
-	/* stolen from batbeeps. sorry */
-	text-decoration-thickness: 0.6rem;
-	text-decoration-skip-ink: none;
-	text-underline-offset: -0.25rem;
-	text-decoration-color: var(--accent-underline);
-	color: var(--accent);
-	font-variation-settings: "wght" 600;
-}
-
-a:hover {
-	/* stolen from batbeeps. sorry */
-	text-decoration-color: color-mix(in srgb, var(--accent-selected) 25%, transparent 75%);
-	color: var(--accent-selected);
-}
-
-a:focus-visible {
-	/* also stolen from batbeeps */
-	outline: none;
-	text-decoration: none;
-	background-color: var(--a11y-focus);
-	color: black;
-	box-shadow: 0 -2px var(--a11y-focus), 0 4px black;
-}
-.links a:focus-visible {
-	color: black;
-	font-variation-settings: "wght" 600;
-}
-h2 {
-	font-family: archivo, Helvetica, system-ui, sans-serif;
-	font-variation-settings: "wght" 600;
-}
-h3 {
-	font-family: archivo, Helvetica, system-ui, sans-serif;
-	font-variation-settings: "wght" 400;
-}
-.post-title {
-	font-family: archivo, Helvetica, system-ui, sans-serif;
-	font-size: 2rem;
-	font-variation-settings: "wght" 600;
-	color: var(--fg)
-}
-
-.work-title {
-	font-size: 2rem;
-	text-decoration: none;
-	color: var(--accent)
-}
-
-h4 {
-	font-variation-settings: "wght" 600;
-}
-.post-info {
-	font-variation-settings: "wght" 600;
-	font-size: 1rem;
-}
-
-.subheading {
-	font-size: 1.25em;
-	padding-bottom: 1ch;
+	h1, .post-title {
+		font-weight: 600;
+		font-variation-settings: "wdth" 90;
+		font-size: var(--step-3);
+		line-height: normal;
+	}
+	h2 {
+		font-weight: 500;
+		font-size: var(--step-2);
+		font-variation-settings: "wdth" 90;
+	}
+	h3 {
+		font-weight: 600;
+		font-size: var(--step-1);
+	}
+	.breadcrumb {
+		font-size: var(--step-0);
+		font-family: 'IBM Plex Mono';
+		text-transform: uppercase;
+	}
+	a {
+		color: var(--accent);
+		font-weight: 600;
+		word-break: break-word;
+		text-decoration: underline;
+		text-decoration-color: currentcolor;
+		text-decoration-thickness: auto;
+		text-decoration-thickness: 0.6em;
+		text-decoration-color: color-mix(in srgb, currentColor 30%, transparent);
+		text-decoration-skip-ink: none;
+		text-underline-offset: -0.25em;
+	}
+	a:hover, a:focus {
+		color: var(--accent-hover);
+	}
+	blockquote {
+		font-style: italic;
+		font-size: var(--step-1);
+		border-left: 2px solid;
+		padding-left: var(--space-s);
+		margin-left: var(--space-s);
+	}
 }

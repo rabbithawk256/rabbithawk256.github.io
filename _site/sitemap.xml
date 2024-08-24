@@ -12,7 +12,7 @@
         </url>
     
         <url>
-            <loc>/contact.html</loc>
+            <loc>/contact/</loc>
             <lastmod>2023-09-02T10:26:37.973Z</lastmod>
         </url>
     
@@ -34,6 +34,26 @@
         <url>
             <loc>/work/2024/sci-fi-or-bust/</loc>
             <lastmod>2024-02-15T15:20:48.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/about/identity</loc>
+            <lastmod>2024-03-10T00:53:45.393Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/airticial-intelligence-usage</loc>
+            <lastmod>2024-04-09T16:30:48.768Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/blog/2024/roblox-has-a-discovery-problem/</loc>
+            <lastmod>2024-04-11T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/blog/2024/stress-test/</loc>
+            <lastmod>2024-04-11T00:00:00.000Z</lastmod>
         </url>
     
 </urlset>
